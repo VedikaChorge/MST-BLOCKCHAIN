@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "ip-evidence-hub",
+      "runtimeExecutable": "ip_evidence_hub/.venv/Scripts/python.exe",
+      "runtimeArgs": ["ip_evidence_hub/app.py"],
+      "port": 5000
+    }
+  ]
+}

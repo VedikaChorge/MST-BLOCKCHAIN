@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip --version)",
+      "Bash(.venv/Scripts/python.exe --version)",
+      "Bash(.venv/Scripts/python.exe -m pip install -q -r requirements.txt pytest)",
+      "Bash(.venv/Scripts/python.exe -m pip list)",
+      "Bash(.venv/Scripts/python.exe -m pytest -q)",
+      "Bash(.venv/Scripts/python.exe -m pytest -q -p no:warnings)",
+      "Bash(.venv/Scripts/python.exe -c ' *)",
+      "WebSearch",
+      "Bash(sed -n '452,454p;519,521p' app.py)",
+      "Bash(.venv/Scripts/python.exe -)",
+      "Bash(grep -nE \"billing|payment|credit|PLANS|money|FREE_EVIDENCE|subscription\" app.py)",
+      "Bash(rm templates/billing.html templates/checkout.html templates/admin_payments.html tests/test_billing.py)",
+      "Bash(grep -rnE \"billing|payment|credit|PLANS|money|FREE_EVIDENCE|subscription|pay-\" app.py templates tests static/style.css)",
+      "Bash(.venv/Scripts/python.exe -m pip index versions gunicorn)",
+      "Bash(cat requirements.txt)",
+      "Bash(.venv/Scripts/python.exe -m pip install --dry-run -q -r requirements.txt)",
+      "Bash(.venv/Scripts/python.exe -m pytest -q -p no:warnings tests/test_chain.py)",
+      "Bash(.venv/Scripts/python.exe -m pytest -q -p no:warnings --ignore=tests/test_admin_anchoring.py)",
+      "Bash(ip_evidence_hub/.venv/Scripts/python.exe -I \"C:/Users/ShivaniN/AppData/Local/Temp/claude/C--Users-ShivaniN-Downloads-IP-Evidence-Hub-Source/ddf47ca2-ccac-4d18-9aa0-4502eb6631b4/scratchpad/make_demo.py\" \"C:/Users/ShivaniN/Downloads/IP_Evidence_Hub_Source/demo\")"
+    ]
+  }
+}
